@@ -1,10 +1,8 @@
 import discord
 import random
 import asyncio
-import os
-from keep_alive import keep_alive
 
-TOKEN = os.getenv("MTM3OTAzNDU1OTQ0NTg2MDQ0Mg.GON5jW.Y99bR4qgjBmvxF1Y2e2DvtYLSB1WmA2SDMecks")
+TOKEN = ("MTM3OTAzNDU1OTQ0NTg2MDQ0Mg.GON5jW.Y99bR4qgjBmvxF1Y2e2DvtYLSB1WmA2SDMecks")
 GUILD_ID = 1149713429561622609  # your server ID
 ROLE_ID = 1325399876024012800  # your role ID
 
@@ -36,5 +34,4 @@ async def on_ready():
             print(f"Error: {e}")
             await asyncio.sleep(10)
 
-keep_alive()
 client.run(TOKEN)
