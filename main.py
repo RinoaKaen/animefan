@@ -29,7 +29,7 @@ async def on_ready():
         try:
             new_color = generate_random_color()
             await role.edit(color=new_color, reason="Random color change")
-            await asyncio.sleep(5)
+            await asyncio.sleep(10)
         except Exception as e:
             print(f"Error: {e}")
             await asyncio.sleep(10)
