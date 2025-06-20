@@ -2,7 +2,7 @@ import discord
 import random
 import asyncio
 
-TOKEN = ("MTM3OTAzNDU1OTQ0NTg2MDQ0Mg.GON5jW.Y99bR4qgjBmvxF1Y2e2DvtYLSB1WmA2SDMecks")
+TOKEN = ("TOKEN")
 GUILD_ID = 1149713429561622609  # your server ID
 ROLE_ID = 1325399876024012800  # your role ID
 
