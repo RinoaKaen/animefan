@@ -2,7 +2,7 @@ import discord
 import re
 
 # ====== SETUP ======
-TOKEN = 'TOKEN'  # Replace with your bot token
+TOKEN = 'TOKEN_HERE'  # Replace with your bot token
 GUILD_ID = 1149713429561622609  # Replace with your server ID
 # ====================
 
